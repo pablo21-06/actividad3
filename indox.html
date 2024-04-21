@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body class="pie">
+    <div>
+        <nav>
+            <li><a href="./index.html">Inicio</a></li>
+        </nav>
+       </div>
+       <header>
+        <h1>Diferencia entre los estilos CSS Inline, Externo e Interno</h1>
+       </header>
+          <h2>CSS Interno</h2>
+          <div>
+            <p> CSS interno, también conocido como CSS incrustado, se refiere a la práctica de incluir reglas de estilo CSS directamente dentro del documento HTML, en lugar de en un archivo CSS externo separado. Esto se logra mediante el uso de la etiqueta style dentro de la sección head del documento HTML.
+
+                El CSS interno es útil cuando deseas aplicar estilos específicos a un solo documento HTML sin necesidad de crear un archivo CSS externo. Sin embargo, puede volverse difícil de mantener cuando se utiliza en documentos HTML grandes o en múltiples páginas, ya que los estilos no se pueden reutilizar ni compartir fácilmente.
+                
+                Por lo tanto, mientras que el CSS interno puede ser conveniente en ciertos casos, en general es preferible utilizar CSS externo para mantener una separación clara entre la estructura del documento HTML y su presentación visual.</p>
+          </div>
+          <img src="./Img1.png" alt="">
+          <h2>CSS Externo</h2>
+          <div>
+            <p>CSS externo se refiere a un archivo CSS separado que contiene reglas de estilo para un documento HTML. En lugar de incluir todas las reglas de estilo dentro de la etiqueta style en el documento HTML, estas reglas se almacenan en un archivo .css separado. Luego, este archivo CSS externo se enlaza al documento HTML utilizando la etiqueta <link> en el <head> del documento HTML.
+
+                Este enfoque tiene varias ventajas, como la modularidad (puedes reutilizar el mismo archivo CSS en múltiples páginas HTML), la facilidad de mantenimiento (puedes hacer cambios en el diseño de todo el sitio modificando un solo archivo), y una mejor organización del código.</p>
+          </div>
+            <img src="../img2.jpg" alt="">
+          <h2>CSS Inline</h2>
+          <div>
+            <p>El CSS inline se utiliza para dar estilo a un elemento HTML específico. Para este tipo de estilo CSS, sólo tendrás que añadir el atributo style a cada etiqueta HTML, sin utilizar selectores.
+                Este tipo de CSS no es realmente recomendable, ya que cada etiqueta HTML debe ser estilizada individualmente. La gestión de tu sitio web puede resultar demasiado difícil si sólo utilizas CSS inline.               
+                Sin embargo, el CSS inline en HTML puede ser útil en algunas situaciones. Por ejemplo, en los casos en los que no tienes acceso a archivos CSS o necesitas aplicar estilos para un solo elemento.</p>
+          </div>
+          <img src="./img3.png" alt="">
+          <br>
+          <div>
+            <p>En CSS, la unidad de medida más comúnmente utilizada para especificar tamaños de fuente y dimensiones de contenedores es el píxel (px). Sin embargo, también hay otras unidades de medida disponibles que pueden ser útiles dependiendo del contexto y de los objetivos de diseño. Aquí hay algunas unidades comunes y cuándo podrían ser más adecuadas:</p>
+          </div>
+          <header><b>Porcentaje (%):</b></header>
+          x
+          <li>Son unidades absolutas, lo que significa que un píxel representa una unidad de medida fija independientemente del dispositivo de visualización.</li>
+          <li>Son ideales para especificar tamaños precisos para fuentes y elementos de diseño cuando se busca un control detallado sobre el diseño.</li>
+<br>
+<header><b>Em (em):</b></header>
+
+<li>La unidad "em" es relativa al tamaño de la fuente del elemento padre. Un valor de 1em es igual al tamaño de fuente del elemento padre.</li>
+<li>Son útiles cuando se desea mantener proporciones relativas entre diferentes elementos dentro de un diseño, lo que puede ayudar a mantener la coherencia visual y la accesibilidad.</li>
+<br>
+<header><b>Porcentaje (%):</b></header>
+  
+
+<li>Los porcentajes son relativos al tamaño del elemento padre. Un valor del 100% sería igual al tamaño del elemento padre.</li>
+<li>on útiles para diseñar diseños fluidos y responsivos, ya que se ajustan automáticamente según el tamaño del contenedor padre.</li>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDADES DE MEDIDA</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body class="pie">
+    <header>
+        <h1 > QUE ES CSS?</h1>
+    </header>
+    <div>
+        <nav>
+            <li><a href="./indox.html">Estilo CSS</a></li>
+        </nav>
+    </div>
+   <div>
+    <p class="contenedor">CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de los sitios.
+
+        Se les denomina hojas de estilo «en cascada» porque puedes tener varias y una de ellas con las propiedades heredadas (o «en cascada») de otras.
+        
+        Para muchas personas, una simple plantilla de blog es suficiente. Aun así, cuando quieras personalizar la apariencia de un sitio, necesitarás implementar CSS que, en conjunto con un buen CMS, te ayudará a potenciar el alcance de tu contenido. </p>
+   </div>
+   
+
+        <header>
+            
+                <h1>PARA QUE SIRVE CSS?</h1>
+        
+        </header>
+        <P>Con CSS, puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información y guardar los comandos para elementos de estilo (como fuentes, colores, tamaños, etc.) separados de los que configuran el contenido.
+
+            Además, puedes crear formatos específicos útiles para comunicar tus ideas y producir experiencias más agradables, en el aspecto visual, para los usuarios del sitio web.</P>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ELSm-G201Ls?si=SILeJeOu7Ahy4dRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <header>
+            <h1>Los 2 métodos para incluir css en html que deberías conocer</h1>
+        </header>
+        <div>
+            <p>Este es el método más común para adjuntar reglas CSS a documentos HTML.
+
+                Con este método, todas las reglas de estilo están contenidas en un único archivo de texto que se guarda con la extensión .css.
+                
+                Este archivo se guarda en un servidor y se vincula directamente desde cada archivo HTML. Para su vinculación se utiliza la etiqueta link de la siguiente manera:
+                
+                vincular archivo css
+                
+                <li>El atributo rel indica al navegador que el archivo vinculado es una hoja de estilo en cascada (css).</li>
+                <li> El atributo type indica el tipo de archivo vinculado. Si se utiliza HTML5 no es obligatorio incluir este atributo</li>
+                <li>El atributo href es donde especifica la ruta a su archivo CSS.</li>
+               
+                
+                
+                
+                Si el archivo CSS está en la misma carpeta que su archivo HTML, entonces no se requiere una ruta, solo necesita especificar el nombre de archivo.
+                Si se guarda en una carpeta distinta, puede especificar la ruta de dicha carpeta de manera relativa o absoluta. También es posible especificar una ruta mediante una url.
+                El atributo media en una etiqueta que especifica cuándo se deben aplicar las reglas CSS. Los valores más comunes son:
+                
+               <li> Screen: indica para su uso en una pantalla de computadora.</li>
+               <li> Projection: para presentaciones proyectadas.</li>
+                <li>Handheld: para dispositivos de mano (generalmente con pantallas pequeñas).</li>
+                <li>Print: para diseñar páginas web impresas.</li>
+                <li>All (valor predeterminado): Para que el estilo se aplique a todos los tipos de medios.
+                    </li>
+                    <b>El uso de este método tiene las siguientes ventajas:</b>
+                
+                <li>Los cambios del código css son reflejados en todas las páginas.</li>
+            <li> Cambiar el tema del sitio web es fácil.</li>
+               <li> La velocidad del sitio web aumenta para múltiples solicitudes de página.</li>
+                La principal desventaja es que se requiere una solicitud HTTP adicional para cada archivo css vinculado.</p>
+        </div>
+        <br>
+        <header>
+            <h1>Incrustando CSS en una etiqueta de estilo</h1>
+        </header>
+        <div>
+            <p>El atributo type es para especificar el tipo de código incluido y es posible omitirlo en HTML5 y el atributo media controla cuándo se aplican los estilos.</p>
+            <b>Las principales ventajas de este método son:</b>
+            <li>tiempo de carga mas rapidos</li>
+            <li>funciona muy bien con estilos dinamicos</li>
+            <p>La principal desventaja es que los estilos incrustados deben ser descargados con cada solicitud de página.</p>
+        </div>
+    
+</body>
+</html>
